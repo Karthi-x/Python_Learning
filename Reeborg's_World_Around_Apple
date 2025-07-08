@@ -1,0 +1,18 @@
+def take_apple():
+    if object_here():
+        take()
+    else:
+        move()
+def goandleft():
+    while front_is_clear():
+        take_apple()
+    turn_left()
+        
+goandleft()
+goandleft()
+goandleft()
+
+while front_is_clear():
+    take_apple()
+    if at_goal():
+        break
